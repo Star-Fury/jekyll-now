@@ -18,12 +18,13 @@ html {
 }
 
 body {
-	background: $white;
+	background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2017/01/cool-wallpaper-for-girls-desktop-backgrounds-wallpapers-hd.jpg");
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $black;
 }
 
 .container {
+background: rgba(255,0,0,0.2);
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
@@ -31,8 +32,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: sans-serif;
+  color: $blue;
   font-weight: bold;
 
   line-height: 1.7;
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: #328CC1;
   }
 }
 
@@ -61,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $blue;
 }
 
 p {
@@ -69,11 +70,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #ff0000;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #ff0000;
   }
 }
 
@@ -109,7 +110,27 @@ strong, b {
 img {
   max-width: 100%;
 }
+table{
+border-colapse: collapse;
+width: 100%;
+}
 
+table,th,td{
+border: 1px solid $white
+background-colour: #1D2371
+
+}
+
+td{
+vertical-align: middle;
+padding: 10px;
+
+th{
+colour: $white;
+background-colour: #0B3C5D;
+height :50px;
+vertical-align: middle;
+	}
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -123,7 +144,7 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: lightblue;
 }
 ::selection {
   color: $black;
